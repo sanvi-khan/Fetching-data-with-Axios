@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.products{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+   flex-wrap: wrap;
+}
+.product{
+    background-color: rgb(206, 214, 214);
+    padding: 10px;
+    margin: 5px;
+    width: 31%;
+}
+.product-title{
+    margin-bottom: 5px;
+    color: rgb(255, 0, 0);
+}
+.product-description{
+    margin-bottom: 5px;  
+}
+img{
+    width: 60%;
+    height: 50%;
+}
